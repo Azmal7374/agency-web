@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.nav-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #9b9898;
+    color: white;
+}
+ 
+.items {
+    display: flex;
+    list-style: none;
+}
+
+
+.item {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+.primary {
+    color: rgb(240, 12, 12);
+}
+
+.title-banner {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.btn-discover {
+    background-color: red;
+    color: white;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.btn-hire {
+    color: red;
+}
+
+
+.service-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service-btn {
+    color: gray;
+    border-radius: 25px;
+}
+
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.service-description {
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+.service-list {
+    list-style: decimal;
+    padding: 22px;
+    font-size: 18px;
+    color: rgb(190, 207, 208);
+}
+
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.service {
+    box-shadow: 4px 4px 8px rgb(26 24 24);
+    /* background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)); */
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.service-logo {
+    width: 100px;
+    padding: 20px;
+}
+
+
+
+.appointment-section{
+    width: 75%;
+    padding: 15px;
+    background-color: rgb(245, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    border-radius: 15px;
+    margin-top:-80px;
+    color: white;
+}
+.call-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+.appointment-logo{
+    width:100px;
+    padding: 15px;
+}
+.apointment-descript{
+    padding: 10px;
+    /* width: 75px; */
+    text-align: justify;
+}
+
+
+.blogs-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.blog-box{
+    text-align: center;
+    margin-top:30px;
+}
+.description-blog{
+    font-size:22px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.blog{
+    width:350px;
+    height: 430px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+}
+.blog-img{
+    width:350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blog-text{
+    padding: 15px;
+}
+.blog-title{
+    font-size:24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+.blog-description{
+    font-size:18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+.blogs{
+    margin-top: 35px;
+    padding:30px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items:center;
+}
+
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
